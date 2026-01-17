@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Physics Learning Interface</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #f0f0f0 60%, #e0e7ff 100%);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+    .video-container {
+      position: relative;
+      width: 80%;
+      max-width: 800px;
+      margin: 20px 0;
+    }
+    #physicsVideo {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+    }
+    #avatarVideo {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      width: 30%;
+      border-radius: 8px;
+      display: none;
+    }
+    .controls {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin: 20px 0;
+    }
+    .btn {
+      padding: 15px 40px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: all 0.3s;
+    }
+    .play-button {
+      background: linear-gradient(90deg, #1e90ff 60%, #00c6ff 100%);
+      color: white;
+    }
+    .mic-button {
+      background: linear-gradient(90deg, #43e97b 60%, #38f9d7 100%);
+      color: #222;
+    }
+    .mic-button.listening {
+      background: linear-gradient(90deg, #ff5858 60%, #f09819 100%);
+      color: white;
+      animation: pulse 1.5s infinite;
+    }
+    #status {
+      color: #444;
+      margin: 15px 0;
+      text-align: center;
+      font-size: 1.1rem;
+      min-height: 24px;
+    }
+    .response-text {
+      position: absolute;
+      bottom: 120px;
+      right: 20px;
+      width: 30%;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 10px;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      display: none;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <div class="video-container">
+    <video id="physicsVideo" controls>
+      <source src="" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video id="avatarVideo" loop>
+      <source src="" type="video/mp4">
+    </video>
+    <div class="response-text" id="responseText"></div>
+  </div>
+  
+  <div id="status">Ready to begin. Click Play Video to start.</div>
+  
+  <div class="controls">
+    <button class="btn play-button" id="playButton">▶ Play Video</button>
+    <button class="btn mic-button" id="micButton">🎤 Ask Question</button>
+  </div>
+
+  <script>
+    const micButton = document.getElementById('micButton');
+    const playButton = document.getElementById('playButton');
+    const statusDiv = document.getElementById('status');
+    const physicsVideo = document.getElementById('physicsVideo');
+    const avatarVideo = document.getElementById('avatarVideo');
+    const responseText = document.getElementById('responseText');
+    
+    let recognition = null;
+    let physicsVideoPlaying = false;
+    let physicsVideoTime = 0;
+
+    // Load videos when page loads
+    window.addEventListener('load', () => {
+      fetch('/get_videos')
+        .then(response => {
+          if (!response.ok) throw new Error('Network response was not ok');
+          return response.json();
+        })
+        .then(data => {
+          physicsVideo.src = data.physics_video;
+          avatarVideo.src = data.avatar_video;
+          statusDiv.textContent = "Videos loaded. Click Play Video to start.";
+        })
+        .catch(error => {
+          console.error('Error loading videos:', error);
+          statusDiv.textContent = "Error loading videos. Please refresh the page.";
+        });
+    });
+
+    // Play/Pause physics video
+    playButton.addEventListener('click', () => {
+      if (physicsVideo.paused) {
+        physicsVideo.play();
+        playButton.textContent = "⏸ Pause Video";
+        physicsVideoPlaying = true;
+        statusDiv.textContent = "Video playing. Click the mic to ask a question.";
+      } else {
+        physicsVideo.pause();
+        playButton.textContent = "▶ Play Video";
+        physicsVideoPlaying = false;
+        statusDiv.textContent = "Video paused.";
+      }
+    });
+
+    // Microphone button handler
+    micButton.addEventListener('click', toggleRecognition);
+
+    function toggleRecognition() {
+      if (!recognition) {
+        startRecognition();
+      } else {
+        stopRecognition();
+      }
+    }
+
+    function startRecognition() {
+      if (!physicsVideoPlaying) {
+        statusDiv.textContent = "Please play the video first";
+        return;
+      }
+
+      if (!('webkitSpeechRecognition' in window)) {
+        statusDiv.textContent = "Speech recognition not supported in your browser";
+        return;
+      }
+
+      // Save current video time and pause
+      physicsVideoTime = physicsVideo.currentTime;
+      physicsVideo.pause();
+      
+      recognition = new webkitSpeechRecognition();
+      recognition.continuous = false;
+      recognition.interimResults = false;
+      recognition.lang = 'en-US';
+
+      recognition.onstart = () => {
+        micButton.classList.add('listening');
+        statusDiv.textContent = "Listening... Speak your question now";
+      };
+
+      recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        statusDiv.textContent = "Processing your question...";
+        
+        fetch('/save_question', {
+          method: 'POST',
+          headers: {'Content-Type': 'application/json'},
+          body: JSON.stringify({ question: transcript })
+        })
+        .then(response => {
+          if (!response.ok) throw new Error('Network response was not ok');
+          return response.json();
+        })
+        .then(data => {
+          if (data.status === 'success') {
+            // Show avatar and response
+            avatarVideo.style.display = 'block';
+            avatarVideo.play();
+            responseText.textContent = data.response_text;
+            responseText.style.display = 'block';
+            
+            // Play audio response
+            const audio = new Audio(data.audio_url);
+            audio.play();
+            
+            // When audio finishes, hide avatar and resume physics video
+            audio.onended = () => {
+              avatarVideo.style.display = 'none';
+              responseText.style.display = 'none';
+              physicsVideo.currentTime = physicsVideoTime;
+              physicsVideo.play();
+              statusDiv.textContent = "Video resumed. You can ask another question.";
+            };
+          }
+        })
+        .catch(error => {
+          console.error('Error:', error);
+          statusDiv.textContent = "Error processing question. Please try again.";
+          physicsVideo.currentTime = physicsVideoTime;
+          physicsVideo.play();
+        });
+      };
+
+      recognition.onerror = (event) => {
+        console.error('Recognition error:', event.error);
+        statusDiv.textContent = `Error: ${event.error}`;
+        stopRecognition();
+        physicsVideo.currentTime = physicsVideoTime;
+        physicsVideo.play();
+      };
+
+      recognition.onend = stopRecognition;
+
+      recognition.start();
+    }
+
+    function stopRecognition() {
+      if (recognition) {
+        recognition.stop();
+        recognition = null;
+      }
+      micButton.classList.remove('listening');
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,1556 @@
+[
+    {
+        "start": "0.64",
+        "end": "3.12",
+        "duration": "2.48",
+        "text": "introduction"
+    },
+    {
+        "start": "3.12",
+        "end": "5.279",
+        "duration": "2.159",
+        "text": "every time we move something"
+    },
+    {
+        "start": "5.279",
+        "end": "7.359",
+        "duration": "2.08",
+        "text": "use our pencil or walk"
+    },
+    {
+        "start": "7.359",
+        "end": "10.32",
+        "duration": "2.961",
+        "text": "we are using force"
+    },
+    {
+        "start": "10.32",
+        "end": "12.08",
+        "duration": "1.76",
+        "text": "think about how many times you would"
+    },
+    {
+        "start": "12.08",
+        "end": "14.559",
+        "duration": "2.479",
+        "text": "lose your papers if inertia didn't make"
+    },
+    {
+        "start": "14.559",
+        "end": "17.92",
+        "duration": "3.361",
+        "text": "it stay where you put it"
+    },
+    {
+        "start": "18.16",
+        "end": "20.88",
+        "duration": "2.72",
+        "text": "objectives"
+    },
+    {
+        "start": "20.88",
+        "end": "22.88",
+        "duration": "2.0",
+        "text": "at the end of this lesson you'll be able"
+    },
+    {
+        "start": "22.88",
+        "end": "24.32",
+        "duration": "1.44",
+        "text": "to"
+    },
+    {
+        "start": "24.32",
+        "end": "26.56",
+        "duration": "2.24",
+        "text": "define force"
+    },
+    {
+        "start": "26.56",
+        "end": "28.88",
+        "duration": "2.32",
+        "text": "distinguish between balanced and"
+    },
+    {
+        "start": "28.88",
+        "end": "31.199",
+        "duration": "2.319",
+        "text": "unbalanced force"
+    },
+    {
+        "start": "31.199",
+        "end": "34.16",
+        "duration": "2.961",
+        "text": "newton's law of motion relation between"
+    },
+    {
+        "start": "34.16",
+        "end": "36.719",
+        "duration": "2.559",
+        "text": "force and the state of motion attained"
+    },
+    {
+        "start": "36.719",
+        "end": "38.32",
+        "duration": "1.601",
+        "text": "by it"
+    },
+    {
+        "start": "38.32",
+        "end": "42.92",
+        "duration": "4.6",
+        "text": "understand the conservation of momentum"
+    },
+    {
+        "start": "48.64",
+        "end": "51.6",
+        "duration": "2.96",
+        "text": "force and its types"
+    },
+    {
+        "start": "51.6",
+        "end": "53.76",
+        "duration": "2.16",
+        "text": "the object will undergo change in its"
+    },
+    {
+        "start": "53.76",
+        "end": "57.36",
+        "duration": "3.6",
+        "text": "direction speed or shape only if force"
+    },
+    {
+        "start": "57.36",
+        "end": "59.12",
+        "duration": "1.76",
+        "text": "acts on it"
+    },
+    {
+        "start": "59.12",
+        "end": "62.879",
+        "duration": "3.759",
+        "text": "hence force is defined as"
+    },
+    {
+        "start": "62.879",
+        "end": "65.76",
+        "duration": "2.881",
+        "text": "force is any influence that causes an"
+    },
+    {
+        "start": "65.76",
+        "end": "68.799",
+        "duration": "3.039",
+        "text": "object to undergo a change in speed a"
+    },
+    {
+        "start": "68.799",
+        "end": "70.72",
+        "duration": "1.921",
+        "text": "change in direction"
+    },
+    {
+        "start": "70.72",
+        "end": "74.4",
+        "duration": "3.68",
+        "text": "or a change in shape"
+    },
+    {
+        "start": "74.96",
+        "end": "77.92",
+        "duration": "2.96",
+        "text": "force is a vector quantity"
+    },
+    {
+        "start": "77.92",
+        "end": "80.24",
+        "duration": "2.32",
+        "text": "force is of two types"
+    },
+    {
+        "start": "80.24",
+        "end": "84.56",
+        "duration": "4.32",
+        "text": "balanced and unbalanced"
+    },
+    {
+        "start": "84.88",
+        "end": "87.28",
+        "duration": "2.4",
+        "text": "balanced force means two forces are"
+    },
+    {
+        "start": "87.28",
+        "end": "89.92",
+        "duration": "2.64",
+        "text": "acting on opposite sides of the body"
+    },
+    {
+        "start": "89.92",
+        "end": "92.24",
+        "duration": "2.32",
+        "text": "and that body does not change its"
+    },
+    {
+        "start": "92.24",
+        "end": "93.759",
+        "duration": "1.519",
+        "text": "position"
+    },
+    {
+        "start": "93.759",
+        "end": "95.52",
+        "duration": "1.761",
+        "text": "example"
+    },
+    {
+        "start": "95.52",
+        "end": "97.92",
+        "duration": "2.4",
+        "text": "a block pushed from both the sides with"
+    },
+    {
+        "start": "97.92",
+        "end": "98.84",
+        "duration": "0.92",
+        "text": "equal"
+    },
+    {
+        "start": "98.84",
+        "end": "100.64",
+        "duration": "1.8",
+        "text": "force"
+    },
+    {
+        "start": "100.64",
+        "end": "103.28",
+        "duration": "2.64",
+        "text": "unbalanced force is one that is not"
+    },
+    {
+        "start": "103.28",
+        "end": "106.0",
+        "duration": "2.72",
+        "text": "opposed by an equal and opposite force"
+    },
+    {
+        "start": "106.0",
+        "end": "108.159",
+        "duration": "2.159",
+        "text": "to cause a change in the object's"
+    },
+    {
+        "start": "108.159",
+        "end": "109.36",
+        "duration": "1.201",
+        "text": "position"
+    },
+    {
+        "start": "109.36",
+        "end": "110.56",
+        "duration": "1.2",
+        "text": "example"
+    },
+    {
+        "start": "110.56",
+        "end": "115.64",
+        "duration": "5.08",
+        "text": "when block with great force on one side"
+    },
+    {
+        "start": "120.479",
+        "end": "124.399",
+        "duration": "3.92",
+        "text": "newton's first law of motion"
+    },
+    {
+        "start": "124.399",
+        "end": "126.96",
+        "duration": "2.561",
+        "text": "the book will not move by itself"
+    },
+    {
+        "start": "126.96",
+        "end": "129.52",
+        "duration": "2.56",
+        "text": "it will change its state of rest only"
+    },
+    {
+        "start": "129.52",
+        "end": "132.879",
+        "duration": "3.359",
+        "text": "when force of hand acts on it"
+    },
+    {
+        "start": "132.879",
+        "end": "137.84",
+        "duration": "4.961",
+        "text": "this explains us the first law of motion"
+    },
+    {
+        "start": "138.239",
+        "end": "141.12",
+        "duration": "2.881",
+        "text": "first law of motion states that a body"
+    },
+    {
+        "start": "141.12",
+        "end": "143.36",
+        "duration": "2.24",
+        "text": "will remain at rest and a body will"
+    },
+    {
+        "start": "143.36",
+        "end": "146.0",
+        "duration": "2.64",
+        "text": "remain in motion until and unless"
+    },
+    {
+        "start": "146.0",
+        "end": "150.68",
+        "duration": "4.68",
+        "text": "external force acts on it"
+    },
+    {
+        "start": "156.08",
+        "end": "158.319",
+        "duration": "2.239",
+        "text": "application of newton's first law of"
+    },
+    {
+        "start": "158.319",
+        "end": "160.56",
+        "duration": "2.241",
+        "text": "motion"
+    },
+    {
+        "start": "160.56",
+        "end": "162.64",
+        "duration": "2.08",
+        "text": "when a bus starts suddenly the"
+    },
+    {
+        "start": "162.64",
+        "end": "164.56",
+        "duration": "1.92",
+        "text": "passengers fall backward because of"
+    },
+    {
+        "start": "164.56",
+        "end": "165.76",
+        "duration": "1.2",
+        "text": "inertia"
+    },
+    {
+        "start": "165.76",
+        "end": "167.519",
+        "duration": "1.759",
+        "text": "the passenger tends to remain in the"
+    },
+    {
+        "start": "167.519",
+        "end": "169.84",
+        "duration": "2.321",
+        "text": "state of rest even if the bus has"
+    },
+    {
+        "start": "169.84",
+        "end": "171.68",
+        "duration": "1.84",
+        "text": "started moving"
+    },
+    {
+        "start": "171.68",
+        "end": "173.76",
+        "duration": "2.08",
+        "text": "inertias the property of the body due to"
+    },
+    {
+        "start": "173.76",
+        "end": "176.56",
+        "duration": "2.8",
+        "text": "which it resists the change in its state"
+    },
+    {
+        "start": "176.56",
+        "end": "180.959",
+        "duration": "4.399",
+        "text": "of rest or of uniform motion"
+    },
+    {
+        "start": "181.04",
+        "end": "183.36",
+        "duration": "2.32",
+        "text": "mass is the measure of the inertia of a"
+    },
+    {
+        "start": "183.36",
+        "end": "184.48",
+        "duration": "1.12",
+        "text": "body"
+    },
+    {
+        "start": "184.48",
+        "end": "187.76",
+        "duration": "3.28",
+        "text": "larger the mass greater is the inertia"
+    },
+    {
+        "start": "187.76",
+        "end": "190.4",
+        "duration": "2.64",
+        "text": "example when the car stops suddenly the"
+    },
+    {
+        "start": "190.4",
+        "end": "192.4",
+        "duration": "2.0",
+        "text": "driver is jerked forward because of"
+    },
+    {
+        "start": "192.4",
+        "end": "193.599",
+        "duration": "1.199",
+        "text": "inertia"
+    },
+    {
+        "start": "193.599",
+        "end": "195.84",
+        "duration": "2.241",
+        "text": "the passenger tends to remain state of"
+    },
+    {
+        "start": "195.84",
+        "end": "198.159",
+        "duration": "2.319",
+        "text": "motion even if the bus has stopped"
+    },
+    {
+        "start": "198.159",
+        "end": "201.159",
+        "duration": "3.0",
+        "text": "moving"
+    },
+    {
+        "start": "218.319",
+        "end": "222.08",
+        "duration": "3.761",
+        "text": "newton's second law of motion"
+    },
+    {
+        "start": "222.08",
+        "end": "224.08",
+        "duration": "2.0",
+        "text": "newton's second law of motion states"
+    },
+    {
+        "start": "224.08",
+        "end": "226.959",
+        "duration": "2.879",
+        "text": "that the force acting on the body is"
+    },
+    {
+        "start": "226.959",
+        "end": "229.44",
+        "duration": "2.481",
+        "text": "directly proportional to the mass of the"
+    },
+    {
+        "start": "229.44",
+        "end": "231.68",
+        "duration": "2.24",
+        "text": "body and acceleration produced in the"
+    },
+    {
+        "start": "231.68",
+        "end": "233.76",
+        "duration": "2.08",
+        "text": "body in the direction of the force"
+    },
+    {
+        "start": "233.76",
+        "end": "235.76",
+        "duration": "2.0",
+        "text": "applied"
+    },
+    {
+        "start": "235.76",
+        "end": "239.04",
+        "duration": "3.28",
+        "text": "f is equal to m into a"
+    },
+    {
+        "start": "239.04",
+        "end": "241.439",
+        "duration": "2.399",
+        "text": "where f is equal to force"
+    },
+    {
+        "start": "241.439",
+        "end": "243.519",
+        "duration": "2.08",
+        "text": "m is equal to mass"
+    },
+    {
+        "start": "243.519",
+        "end": "247.439",
+        "duration": "3.92",
+        "text": "a is equal to acceleration"
+    },
+    {
+        "start": "247.439",
+        "end": "249.76",
+        "duration": "2.321",
+        "text": "units of force"
+    },
+    {
+        "start": "249.76",
+        "end": "253.12",
+        "duration": "3.36",
+        "text": "the s i unit of force is newton"
+    },
+    {
+        "start": "253.12",
+        "end": "255.36",
+        "duration": "2.24",
+        "text": "newton is defined as the force acting on"
+    },
+    {
+        "start": "255.36",
+        "end": "258.479",
+        "duration": "3.119",
+        "text": "the body of mass 1 kg producing an"
+    },
+    {
+        "start": "258.479",
+        "end": "261.04",
+        "duration": "2.561",
+        "text": "acceleration of 1 meter per second"
+    },
+    {
+        "start": "261.04",
+        "end": "262.24",
+        "duration": "1.2",
+        "text": "square"
+    },
+    {
+        "start": "262.24",
+        "end": "263.84",
+        "duration": "1.6",
+        "text": "unit is equal to"
+    },
+    {
+        "start": "263.84",
+        "end": "266.8",
+        "duration": "2.96",
+        "text": "kilogram meter per second square or"
+    },
+    {
+        "start": "266.8",
+        "end": "269.199",
+        "duration": "2.399",
+        "text": "newton"
+    },
+    {
+        "start": "269.199",
+        "end": "271.6",
+        "duration": "2.401",
+        "text": "to calculate force of body having mass"
+    },
+    {
+        "start": "271.6",
+        "end": "275.16",
+        "duration": "3.56",
+        "text": "1000 kg and acceleration of"
+    },
+    {
+        "start": "275.16",
+        "end": "278.639",
+        "duration": "3.479",
+        "text": "0.5 meter per second square"
+    },
+    {
+        "start": "278.639",
+        "end": "283.4",
+        "duration": "4.761",
+        "text": "then f is equal to 1000 into"
+    },
+    {
+        "start": "283.4",
+        "end": "288.08",
+        "duration": "4.68",
+        "text": "0.5 which is equal to 500 newton or"
+    },
+    {
+        "start": "288.08",
+        "end": "292.759",
+        "duration": "4.679",
+        "text": "kilogram meter per second square"
+    },
+    {
+        "start": "303.919",
+        "end": "306.24",
+        "duration": "2.321",
+        "text": "application of newton's second law of"
+    },
+    {
+        "start": "306.24",
+        "end": "308.24",
+        "duration": "2.0",
+        "text": "motion"
+    },
+    {
+        "start": "308.24",
+        "end": "310.56",
+        "duration": "2.32",
+        "text": "cricket player lows his hands along with"
+    },
+    {
+        "start": "310.56",
+        "end": "312.479",
+        "duration": "1.919",
+        "text": "the ball to catch it because the"
+    },
+    {
+        "start": "312.479",
+        "end": "315.199",
+        "duration": "2.72",
+        "text": "acceleration of the ball gets reduced"
+    },
+    {
+        "start": "315.199",
+        "end": "317.84",
+        "duration": "2.641",
+        "text": "and hence overall smaller force is"
+    },
+    {
+        "start": "317.84",
+        "end": "321.12",
+        "duration": "3.28",
+        "text": "applied to stop the ball and no injuries"
+    },
+    {
+        "start": "321.12",
+        "end": "325.479",
+        "duration": "4.359",
+        "text": "caused to the hands of the player"
+    },
+    {
+        "start": "332.8",
+        "end": "334.96",
+        "duration": "2.16",
+        "text": "momentum"
+    },
+    {
+        "start": "334.96",
+        "end": "340.24",
+        "duration": "5.28",
+        "text": "momentum is mass in motion b is equal to"
+    },
+    {
+        "start": "340.24",
+        "end": "342.08",
+        "duration": "1.84",
+        "text": "m into v"
+    },
+    {
+        "start": "342.08",
+        "end": "344.56",
+        "duration": "2.48",
+        "text": "where p is equal to momentum"
+    },
+    {
+        "start": "344.56",
+        "end": "347.52",
+        "duration": "2.96",
+        "text": "mass is equal to mass of the body"
+    },
+    {
+        "start": "347.52",
+        "end": "351.6",
+        "duration": "4.08",
+        "text": "v is equal to velocity of the body"
+    },
+    {
+        "start": "351.6",
+        "end": "356.56",
+        "duration": "4.96",
+        "text": "si unit is kilogram meters per second"
+    },
+    {
+        "start": "356.56",
+        "end": "358.8",
+        "duration": "2.24",
+        "text": "hence combined effect of mass and"
+    },
+    {
+        "start": "358.8",
+        "end": "361.84",
+        "duration": "3.04",
+        "text": "velocity is called momentum"
+    },
+    {
+        "start": "361.84",
+        "end": "364.96",
+        "duration": "3.12",
+        "text": "it is a vector quantity"
+    },
+    {
+        "start": "364.96",
+        "end": "367.68",
+        "duration": "2.72",
+        "text": "the change of momentum of an object is"
+    },
+    {
+        "start": "367.68",
+        "end": "369.84",
+        "duration": "2.16",
+        "text": "proportional to the applied unbalanced"
+    },
+    {
+        "start": "369.84",
+        "end": "373.68",
+        "duration": "3.84",
+        "text": "force in direction of force"
+    },
+    {
+        "start": "373.68",
+        "end": "377.919",
+        "duration": "4.239",
+        "text": "formulation of second law of motion"
+    },
+    {
+        "start": "378.24",
+        "end": "380.639",
+        "duration": "2.399",
+        "text": "the change of momentum of an object is"
+    },
+    {
+        "start": "380.639",
+        "end": "382.8",
+        "duration": "2.161",
+        "text": "proportional to the applied unbalanced"
+    },
+    {
+        "start": "382.8",
+        "end": "386.88",
+        "duration": "4.08",
+        "text": "force in direction of force"
+    },
+    {
+        "start": "386.88",
+        "end": "389.68",
+        "duration": "2.8",
+        "text": "let the initial momentum be p1 which is"
+    },
+    {
+        "start": "389.68",
+        "end": "392.24",
+        "duration": "2.56",
+        "text": "equal to mu"
+    },
+    {
+        "start": "392.24",
+        "end": "395.039",
+        "duration": "2.799",
+        "text": "let the final momentum be p2 which"
+    },
+    {
+        "start": "395.039",
+        "end": "397.919",
+        "duration": "2.88",
+        "text": "equals mv"
+    },
+    {
+        "start": "397.919",
+        "end": "400.08",
+        "duration": "2.161",
+        "text": "the change in momentum is"
+    },
+    {
+        "start": "400.08",
+        "end": "402.319",
+        "duration": "2.239",
+        "text": "p2 minus p1"
+    },
+    {
+        "start": "402.319",
+        "end": "407.36",
+        "duration": "5.041",
+        "text": "which equals mv minus mu"
+    },
+    {
+        "start": "407.36",
+        "end": "410.0",
+        "duration": "2.64",
+        "text": "rate of change of momentum is"
+    },
+    {
+        "start": "410.0",
+        "end": "412.88",
+        "duration": "2.88",
+        "text": "m into v minus u"
+    },
+    {
+        "start": "412.88",
+        "end": "415.84",
+        "duration": "2.96",
+        "text": "whole upon t"
+    },
+    {
+        "start": "415.84",
+        "end": "417.599",
+        "duration": "1.759",
+        "text": "force is equal to"
+    },
+    {
+        "start": "417.599",
+        "end": "419.12",
+        "duration": "1.521",
+        "text": "k into"
+    },
+    {
+        "start": "419.12",
+        "end": "421.84",
+        "duration": "2.72",
+        "text": "m into v minus u"
+    },
+    {
+        "start": "421.84",
+        "end": "424.4",
+        "duration": "2.56",
+        "text": "whole upon t"
+    },
+    {
+        "start": "424.4",
+        "end": "428.16",
+        "duration": "3.76",
+        "text": "force is equal to k m a"
+    },
+    {
+        "start": "428.16",
+        "end": "433.16",
+        "duration": "5.0",
+        "text": "where k is the proportionality constant"
+    },
+    {
+        "start": "454.8",
+        "end": "458.479",
+        "duration": "3.679",
+        "text": "newton's third law of motion"
+    },
+    {
+        "start": "458.479",
+        "end": "460.72",
+        "duration": "2.241",
+        "text": "whenever one body exerts a force on"
+    },
+    {
+        "start": "460.72",
+        "end": "461.919",
+        "duration": "1.199",
+        "text": "another body"
+    },
+    {
+        "start": "461.919",
+        "end": "464.319",
+        "duration": "2.4",
+        "text": "the second body exerts an equal and"
+    },
+    {
+        "start": "464.319",
+        "end": "467.84",
+        "duration": "3.521",
+        "text": "opposite force on the first body"
+    },
+    {
+        "start": "467.84",
+        "end": "470.56",
+        "duration": "2.72",
+        "text": "every action has equal and opposite"
+    },
+    {
+        "start": "470.56",
+        "end": "473.56",
+        "duration": "3.0",
+        "text": "reaction"
+    },
+    {
+        "start": "480.96",
+        "end": "483.599",
+        "duration": "2.639",
+        "text": "examples to illustrate newton's third"
+    },
+    {
+        "start": "483.599",
+        "end": "485.84",
+        "duration": "2.241",
+        "text": "law of motion"
+    },
+    {
+        "start": "485.84",
+        "end": "487.599",
+        "duration": "1.759",
+        "text": "how do we walk"
+    },
+    {
+        "start": "487.599",
+        "end": "489.759",
+        "duration": "2.16",
+        "text": "when we walk on the ground our foot"
+    },
+    {
+        "start": "489.759",
+        "end": "492.72",
+        "duration": "2.961",
+        "text": "pushes the ground backward and in return"
+    },
+    {
+        "start": "492.72",
+        "end": "496.56",
+        "duration": "3.84",
+        "text": "the ground pushes our foot forward"
+    },
+    {
+        "start": "496.8",
+        "end": "500.16",
+        "duration": "3.36",
+        "text": "why the cannon recoil"
+    },
+    {
+        "start": "502.319",
+        "end": "504.72",
+        "duration": "2.401",
+        "text": "when ball is fired from a cannon"
+    },
+    {
+        "start": "504.72",
+        "end": "507.44",
+        "duration": "2.72",
+        "text": "the force sends the ball forward and is"
+    },
+    {
+        "start": "507.44",
+        "end": "509.36",
+        "duration": "1.92",
+        "text": "equal to the force sending the cannon"
+    },
+    {
+        "start": "509.36",
+        "end": "512.0",
+        "duration": "2.64",
+        "text": "backward hence the cannon is set to be"
+    },
+    {
+        "start": "512.0",
+        "end": "514.719",
+        "duration": "2.719",
+        "text": "recoiled"
+    },
+    {
+        "start": "516.399",
+        "end": "518.839",
+        "duration": "2.44",
+        "text": "jet airplanes and"
+    },
+    {
+        "start": "518.839",
+        "end": "521.12",
+        "duration": "2.281",
+        "text": "rockets the action of the gases"
+    },
+    {
+        "start": "521.12",
+        "end": "524.0",
+        "duration": "2.88",
+        "text": "downwards of the rocket gives equal and"
+    },
+    {
+        "start": "524.0",
+        "end": "526.72",
+        "duration": "2.72",
+        "text": "opposite reaction to the rocket to move"
+    },
+    {
+        "start": "526.72",
+        "end": "530.399",
+        "duration": "3.679",
+        "text": "upward with great speed"
+    },
+    {
+        "start": "530.399",
+        "end": "532.399",
+        "duration": "2.0",
+        "text": "the case of hose pipe"
+    },
+    {
+        "start": "532.399",
+        "end": "534.8",
+        "duration": "2.401",
+        "text": "the fireman directs a powerful stream of"
+    },
+    {
+        "start": "534.8",
+        "end": "537.279",
+        "duration": "2.479",
+        "text": "water they hold it tightly because it"
+    },
+    {
+        "start": "537.279",
+        "end": "539.519",
+        "duration": "2.24",
+        "text": "has tendency to go backward due to the"
+    },
+    {
+        "start": "539.519",
+        "end": "541.76",
+        "duration": "2.241",
+        "text": "backward reaction of water rushing in"
+    },
+    {
+        "start": "541.76",
+        "end": "544.72",
+        "duration": "2.96",
+        "text": "forward direction"
+    },
+    {
+        "start": "544.959",
+        "end": "548.8",
+        "duration": "3.841",
+        "text": "law of conservation of momentum"
+    },
+    {
+        "start": "548.8",
+        "end": "551.04",
+        "duration": "2.24",
+        "text": "when two or more bodies act upon each"
+    },
+    {
+        "start": "551.04",
+        "end": "552.0",
+        "duration": "0.96",
+        "text": "other"
+    },
+    {
+        "start": "552.0",
+        "end": "554.56",
+        "duration": "2.56",
+        "text": "their total momentum remains constant"
+    },
+    {
+        "start": "554.56",
+        "end": "557.6",
+        "duration": "3.04",
+        "text": "when no external force exerts on it is"
+    },
+    {
+        "start": "557.6",
+        "end": "558.56",
+        "duration": "0.96",
+        "text": "called"
+    },
+    {
+        "start": "558.56",
+        "end": "562.8",
+        "duration": "4.24",
+        "text": "law of conservation of momentum"
+    },
+    {
+        "start": "562.8",
+        "end": "566.48",
+        "duration": "3.68",
+        "text": "momentum is never created or destroyed"
+    },
+    {
+        "start": "566.48",
+        "end": "568.48",
+        "duration": "2.0",
+        "text": "it is also called principle of"
+    },
+    {
+        "start": "568.48",
+        "end": "572.0",
+        "duration": "3.52",
+        "text": "conservation of momentum"
+    },
+    {
+        "start": "572.24",
+        "end": "576.0",
+        "duration": "3.76",
+        "text": "let two objects of mass m a and m b"
+    },
+    {
+        "start": "576.0",
+        "end": "578.24",
+        "duration": "2.24",
+        "text": "traveling in the same direction have"
+    },
+    {
+        "start": "578.24",
+        "end": "581.68",
+        "duration": "3.44",
+        "text": "initial velocities as u a and u b"
+    },
+    {
+        "start": "581.68",
+        "end": "584.24",
+        "duration": "2.56",
+        "text": "respectively and their final velocities"
+    },
+    {
+        "start": "584.24",
+        "end": "585.279",
+        "duration": "1.039",
+        "text": "b"
+    },
+    {
+        "start": "585.279",
+        "end": "589.12",
+        "duration": "3.841",
+        "text": "v a and v b respectively"
+    },
+    {
+        "start": "589.12",
+        "end": "592.24",
+        "duration": "3.12",
+        "text": "the rate of change of momentum of ball a"
+    },
+    {
+        "start": "592.24",
+        "end": "593.279",
+        "duration": "1.039",
+        "text": "b"
+    },
+    {
+        "start": "593.279",
+        "end": "594.56",
+        "duration": "1.281",
+        "text": "f a b"
+    },
+    {
+        "start": "594.56",
+        "end": "596.88",
+        "duration": "2.32",
+        "text": "which is equal to m a"
+    },
+    {
+        "start": "596.88",
+        "end": "597.92",
+        "duration": "1.04",
+        "text": "into"
+    },
+    {
+        "start": "597.92",
+        "end": "600.16",
+        "duration": "2.24",
+        "text": "v a minus u a"
+    },
+    {
+        "start": "600.16",
+        "end": "602.88",
+        "duration": "2.72",
+        "text": "upon t"
+    },
+    {
+        "start": "602.959",
+        "end": "606.079",
+        "duration": "3.12",
+        "text": "the rate of change of momentum of ball b"
+    },
+    {
+        "start": "606.079",
+        "end": "607.2",
+        "duration": "1.121",
+        "text": "b"
+    },
+    {
+        "start": "607.2",
+        "end": "610.8",
+        "duration": "3.6",
+        "text": "f b a is equal to m b"
+    },
+    {
+        "start": "610.8",
+        "end": "611.839",
+        "duration": "1.039",
+        "text": "into"
+    },
+    {
+        "start": "611.839",
+        "end": "614.16",
+        "duration": "2.321",
+        "text": "v b minus u b"
+    },
+    {
+        "start": "614.16",
+        "end": "616.48",
+        "duration": "2.32",
+        "text": "upon t"
+    },
+    {
+        "start": "616.48",
+        "end": "618.8",
+        "duration": "2.32",
+        "text": "according to the third law of motion"
+    },
+    {
+        "start": "618.8",
+        "end": "621.12",
+        "duration": "2.32",
+        "text": "every action has equal and opposite"
+    },
+    {
+        "start": "621.12",
+        "end": "622.32",
+        "duration": "1.2",
+        "text": "reaction"
+    },
+    {
+        "start": "622.32",
+        "end": "625.2",
+        "duration": "2.88",
+        "text": "hence the force exerted when both"
+    },
+    {
+        "start": "625.2",
+        "end": "627.44",
+        "duration": "2.24",
+        "text": "objects get coiled is"
+    },
+    {
+        "start": "627.44",
+        "end": "628.64",
+        "duration": "1.2",
+        "text": "f a b"
+    },
+    {
+        "start": "628.64",
+        "end": "633.44",
+        "duration": "4.8",
+        "text": "is equal to minus fba on solving we have"
+    },
+    {
+        "start": "633.44",
+        "end": "636.0",
+        "duration": "2.56",
+        "text": "m a u a plus"
+    },
+    {
+        "start": "636.0",
+        "end": "643.839",
+        "duration": "7.839",
+        "text": "m b u b is equal to m a v a plus m b v b"
+    },
+    {
+        "start": "643.839",
+        "end": "648.48",
+        "duration": "4.641",
+        "text": "where m a u a plus m b u b"
+    },
+    {
+        "start": "648.48",
+        "end": "651.04",
+        "duration": "2.56",
+        "text": "is the total momentum before collision"
+    },
+    {
+        "start": "651.04",
+        "end": "655.92",
+        "duration": "4.88",
+        "text": "and m a v a plus m b v b is the total"
+    },
+    {
+        "start": "655.92",
+        "end": "658.8",
+        "duration": "2.88",
+        "text": "momentum after collision"
+    },
+    {
+        "start": "658.8",
+        "end": "660.48",
+        "duration": "1.68",
+        "text": "the sum of the momentum of the two"
+    },
+    {
+        "start": "660.48",
+        "end": "662.64",
+        "duration": "2.16",
+        "text": "objects before collision"
+    },
+    {
+        "start": "662.64",
+        "end": "665.36",
+        "duration": "2.72",
+        "text": "is equal to the sum of the momenta after"
+    },
+    {
+        "start": "665.36",
+        "end": "667.6",
+        "duration": "2.24",
+        "text": "the collision when no external"
+    },
+    {
+        "start": "667.6",
+        "end": "671.44",
+        "duration": "3.84",
+        "text": "unbalanced force acts on it"
+    },
+    {
+        "start": "671.44",
+        "end": "675.839",
+        "duration": "4.399",
+        "text": "momenta is the plural form of momentum"
+    },
+    {
+        "start": "693.279",
+        "end": "695.76",
+        "duration": "2.481",
+        "text": "did you know sir isaac newton sought to"
+    },
+    {
+        "start": "695.76",
+        "end": "698.56",
+        "duration": "2.8",
+        "text": "describe the motion of all objects using"
+    },
+    {
+        "start": "698.56",
+        "end": "701.279",
+        "duration": "2.719",
+        "text": "the concepts of inertia and force and in"
+    },
+    {
+        "start": "701.279",
+        "end": "704.16",
+        "duration": "2.881",
+        "text": "doing so he found that they obey certain"
+    },
+    {
+        "start": "704.16",
+        "end": "706.959",
+        "duration": "2.799",
+        "text": "conservation laws"
+    },
+    {
+        "start": "706.959",
+        "end": "708.8",
+        "duration": "1.841",
+        "text": "equilibrium occurs"
+    },
+    {
+        "start": "708.8",
+        "end": "710.72",
+        "duration": "1.92",
+        "text": "when the resultant force acting on a"
+    },
+    {
+        "start": "710.72",
+        "end": "713.92",
+        "duration": "3.2",
+        "text": "point particle is zero"
+    },
+    {
+        "start": "713.92",
+        "end": "716.16",
+        "duration": "2.24",
+        "text": "in systems where objects are moving with"
+    },
+    {
+        "start": "716.16",
+        "end": "718.639",
+        "duration": "2.479",
+        "text": "different velocities it is impossible to"
+    },
+    {
+        "start": "718.639",
+        "end": "721.6",
+        "duration": "2.961",
+        "text": "determine which object is in motion and"
+    },
+    {
+        "start": "721.6",
+        "end": "724.24",
+        "duration": "2.64",
+        "text": "which object is at rest"
+    },
+    {
+        "start": "724.24",
+        "end": "726.72",
+        "duration": "2.48",
+        "text": "in other words to phrase matters more"
+    },
+    {
+        "start": "726.72",
+        "end": "729.2",
+        "duration": "2.48",
+        "text": "technically the laws of physics are the"
+    },
+    {
+        "start": "729.2",
+        "end": "731.2",
+        "duration": "2.0",
+        "text": "same in every inertial frame of"
+    },
+    {
+        "start": "731.2",
+        "end": "734.399",
+        "duration": "3.199",
+        "text": "reference that is in all frames related"
+    },
+    {
+        "start": "734.399",
+        "end": "738.0",
+        "duration": "3.601",
+        "text": "by a galilean transformation"
+    },
+    {
+        "start": "738.0",
+        "end": "740.72",
+        "duration": "2.72",
+        "text": "weightlessness when in free fall orbit"
+    },
+    {
+        "start": "740.72",
+        "end": "742.16",
+        "duration": "1.44",
+        "text": "around the earth"
+    },
+    {
+        "start": "742.16",
+        "end": "744.48",
+        "duration": "2.32",
+        "text": "and newton's law of motion are more"
+    },
+    {
+        "start": "744.48",
+        "end": "749.32",
+        "duration": "4.84",
+        "text": "easily discernible in such environments"
+    },
+    {
+        "start": "763.92",
+        "end": "766.399",
+        "duration": "2.479",
+        "text": "summary"
+    },
+    {
+        "start": "766.56",
+        "end": "769.76",
+        "duration": "3.2",
+        "text": "let us summarize what we have learned"
+    },
+    {
+        "start": "769.76",
+        "end": "773.2",
+        "duration": "3.44",
+        "text": "first law of motion an object will be in"
+    },
+    {
+        "start": "773.2",
+        "end": "775.839",
+        "duration": "2.639",
+        "text": "the state of rest or in motion until"
+    },
+    {
+        "start": "775.839",
+        "end": "779.04",
+        "duration": "3.201",
+        "text": "external force acts on it"
+    },
+    {
+        "start": "779.04",
+        "end": "781.279",
+        "duration": "2.239",
+        "text": "the mass of the object is a measure of"
+    },
+    {
+        "start": "781.279",
+        "end": "783.279",
+        "duration": "2.0",
+        "text": "inertia"
+    },
+    {
+        "start": "783.279",
+        "end": "786.0",
+        "duration": "2.721",
+        "text": "force of friction always opposes the"
+    },
+    {
+        "start": "786.0",
+        "end": "788.88",
+        "duration": "2.88",
+        "text": "motion of objects"
+    },
+    {
+        "start": "788.88",
+        "end": "791.44",
+        "duration": "2.56",
+        "text": "second law of motion"
+    },
+    {
+        "start": "791.44",
+        "end": "793.519",
+        "duration": "2.079",
+        "text": "the rate of change of momentum of the"
+    },
+    {
+        "start": "793.519",
+        "end": "796.16",
+        "duration": "2.641",
+        "text": "object is proportional to the unbalanced"
+    },
+    {
+        "start": "796.16",
+        "end": "800.639",
+        "duration": "4.479",
+        "text": "force in the direction of force applied"
+    },
+    {
+        "start": "800.639",
+        "end": "803.839",
+        "duration": "3.2",
+        "text": "the si unit of force is kilogram meter"
+    },
+    {
+        "start": "803.839",
+        "end": "806.88",
+        "duration": "3.041",
+        "text": "per second square"
+    },
+    {
+        "start": "807.04",
+        "end": "808.959",
+        "duration": "1.919",
+        "text": "third law of motion"
+    },
+    {
+        "start": "808.959",
+        "end": "812.079",
+        "duration": "3.12",
+        "text": "every action has equal and opposite"
+    },
+    {
+        "start": "812.079",
+        "end": "814.16",
+        "duration": "2.081",
+        "text": "reaction"
+    },
+    {
+        "start": "814.16",
+        "end": "819.0",
+        "duration": "4.84",
+        "text": "the total momentum is always conserved"
+    },
+    {
+        "start": "837.64",
+        "end": "841.33",
+        "duration": "3.69",
+        "text": "[Music]"
+    },
+    {
+        "start": "841.519",
+        "end": "843.6",
+        "duration": "2.081",
+        "text": "you"
+    }
+]
