@@ -18,7 +18,7 @@ AVATAR_VIDEO_URL = "https://s3-content-videos.s3.ap-southeast-2.amazonaws.com/av
 # Initialize assistant
 assistant = EducationalAssistant(
     transcript_path=os.path.join(os.path.dirname(__file__), 'transcript.json'),
-    api_key='AIzaSyCLpxYEdklCsjjrMa8RQaQDZcBNs3gQUio'
+    api_key='Your API key here'
 )
 
 @app.route('/')
